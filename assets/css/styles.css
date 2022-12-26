@@ -192,7 +192,9 @@ img {
 }
 
 /* Active link */
-
+.active-link{
+  color: var(--title-color);
+}
 
 /*=============== HOME ===============*/
 .home{
@@ -401,8 +403,6 @@ img {
 .brand__img:nth-child(even){
   margin-top: 2rem;
 }
-
-
 
 /*=============== FOOTER ===============*/
 
