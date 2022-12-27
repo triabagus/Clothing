@@ -480,7 +480,20 @@ img {
 }
 
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar{
+  width: .6rem;
+  border-radius: .5rem;
+  background: hsl(220, 8%, 76%);
+}
 
+::-webkit-scrollbar-thumb{
+  background: hsl(220, 8%, 64%);
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: hsl(220, 8%, 54%);
+}
 
 /*=============== SCROLL UP ===============*/
 
