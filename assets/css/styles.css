@@ -669,10 +669,6 @@ body.dark-theme {
 
 /* For large devices */
 @media screen and (min-width: 1023px) {
-  .container {
-    margin: 0 auto;
-  }
-
   .section {
     padding: 7rem 0 1rem;
   }
@@ -736,6 +732,10 @@ body.dark-theme {
 }
 
 @media screen and (min-width: 1124px) {
+  .container{
+    margin: auto;
+  }
+
   .home__container {
     padding: 10rem 0 3rem;
     column-gap: 0;
@@ -797,6 +797,10 @@ body.dark-theme {
   }
   .show-scroll {
     bottom: 3rem;
+  }
+
+  .footer__info{
+    margin-top: 3rem;
   }
 }
 
